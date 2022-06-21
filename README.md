@@ -2,15 +2,15 @@
 
 ## Project Overview:
 
-![](market.png)
+![](https://github.com/DevTrav/stock-analysis/blob/main/resources/market.png)
 
 The initial VB application was built in workbook green_stocks.xlsm to perform stock market performance analysis of 12 "green" stocks. The tool was refactored in VBA_Challenge.xlsm to serve as a proof-of-concept that the application may be used to perform the necessary analysis across larger data sets, at a reduced run time.
 
 ## Results
 
 The original application ran at ~ .5 seconds when analyzing the performance of 12 stock. This could be cumbersome when using the tool on a large data set. For example, if the data set were 4,000 stock, the original code base would run  ~~ 33 min. 
-![](green_stocks_2017.png)
-![](green_stocks_2018.png)
+![](https://github.com/DevTrav/stock-analysis/blob/main/resources/green_stocks_2017.png)
+![](https://github.com/DevTrav/stock-analysis/blob/main/resources/green_stocks_2018.png)
 
 ### The refactor 
 
@@ -47,8 +47,8 @@ The original application ran at ~ .5 seconds when analyzing the performance of 1
 ## Summary 
 + The removal the unnecessary conditional text and the implementation of the `For Loops` reduced the compile time to ~ .2 seconds for 2017 data and ~~.07 seconds for 2018 data.
 
-![](VBA_Challenge_2017.png)
-![](VBA_Challenge_2018.png)
+![2017](https://github.com/DevTrav/stock-analysis/blob/main/resources/VBA_Challenge_2017.png)
+![2018](https://github.com/DevTrav/stock-analysis/blob/main/resources/VBA_Challenge_2018.png)
 
 +  The refactored code will offer greater clarity to the fucntion of the application and therefore easier to maintain.
 
